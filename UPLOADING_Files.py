@@ -22,8 +22,8 @@ class TransferData:
 def main():
     access_token =  "'sl.AbKQY7cwlr949HZB7JxLOMrnYKuY39PSkiEnMjmzkLJ8mukldzSQjT8oLVfn_A-kB4yn6O0erRD07aV-9JeaGvvRPoLFEVvwg3_p2AufnKjhGlCgTVtpR4YV0SKhk6nbU2-ztZAB'"
     transferData = TransferData(access_token)
-    file_from = str(input("Enter the file path to transfer : -"))
-    file_to = input("Enter the full path to upload to dropbox:- ")   
+    file_from = str(input("Enter the file path to transfer-"))
+    file_to = input("Enter the full path to upload to dropbox- ")   )
 
     transferData.upload_file(file_from,file_to)
     print("file has been moved")
